@@ -21,6 +21,7 @@ Optimized to maximize SSIM, PSNR, and LPIPS metrics, this pipeline meets strict 
    Model hyperparameters are embedded directly into `.pth` weights to prevent configuration drift during deployment.
 
 ## ⚙️ Repository Structure
+- `KLA_Restored_Submission.zip`: [Download Restored Outputs Here](https://drive.google.com/file/d/1ks5DLZ-wNKiuBJp89Jfhrq1WMs2BiqAM/view?usp=sharing)
 - `semicon_restore.py`: The core unified script containing the model architecture, training loop, and inference logic.
 - `kla_checkpoint.pth`: The fully trained model weights (download from release / drive).
 - `requirements.txt`: Python environment dependencies.
