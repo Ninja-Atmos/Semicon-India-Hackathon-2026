@@ -1,6 +1,6 @@
 # AI-Based Restoration of Degraded Images for Semiconductor Inspection
 **i4c SEMICON India Hackathon 2026 - KLA Challenge**  
-**Team Member:** Suvam Biswas  
+**Team Member:** Suvam Biswas | Animesh Kullu | Debjit Das  
 **Institution:** Jalpaiguri Government Engineering College (JGEC)  
 
 ## 📌 Project Overview
