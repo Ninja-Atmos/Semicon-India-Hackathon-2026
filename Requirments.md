@@ -1,4 +1,4 @@
-# [PROJECT_NAME]
+# [Al-Based Restoration of Degraded Images for Semiconductor Inspection]
 
 [ONE_TO_TWO_SENTENCE_PROJECT_DESCRIPTION — e.g., "A lightweight CNN-based image restoration pipeline for denoising and upscaling degraded semiconductor inspection images."]
 
