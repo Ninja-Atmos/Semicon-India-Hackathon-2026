@@ -135,8 +135,4 @@ pip freeze > requirements.txt
 | Checkpoint loading fails with a `hyperparameters` key error | Ensure the checkpoint was saved with `{'hyperparameters': ..., 'model_state_dict': ...}`; older checkpoints may need a compatibility loader. |
 | [ADDITIONAL_KNOWN_ISSUE] | [RESOLUTION] |
 
-For further assistance, contact [MAINTAINER_NAME / CONTACT_EMAIL] or open an issue at [ISSUE_TRACKER_URL].
 
-## License
-
-[LICENSE_TYPE — e.g., MIT, Apache 2.0]
