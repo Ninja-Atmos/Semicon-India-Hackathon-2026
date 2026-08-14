@@ -25,8 +25,3 @@ Optimized to maximize SSIM, PSNR, and LPIPS metrics, this pipeline meets strict 
 - `semicon_restore.py`: The core unified script containing the model architecture, training loop, and inference logic.
 - `kla_checkpoint.pth`: The fully trained model weights (download from release / drive).
 - `requirements.txt`: Python environment dependencies.
-
-## 🛠️ Setup & Installation
-Ensure you are using Python 3.10+.
-```bash
-pip install torch torchvision numpy
