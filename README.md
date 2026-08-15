@@ -11,13 +11,11 @@ Optimized to maximize SSIM, PSNR, and LPIPS metrics, this pipeline meets strict 
 ## 🚀 Key Architectural Innovations
 1. **Ultra-Lightweight Footprint (< 3.12M Limit):** 
    Utilizes a 6-block Residual CNN with only **592,065 parameters**, keeping it exceptionally lightweight for sub-millisecond edge inference.
-2. **2x Super-Resolution (PixelShuffle):** 
-   Addresses spatial resolution reduction by expanding feature maps (e.g., 128x128 → 256x256) dynamically within the network tail.
-3. **Dynamic Resolution Guard:** 
+2. **Dynamic Resolution Guard:** 
    Implements automatic `mode='replicate'` padding during the forward pass to prevent tensor mismatch errors when processing out-of-distribution or arbitrary wafer scan resolutions.
-4. **Hybrid Loss Function (L1 + MS-SSIM Proxy):**
+3. **Hybrid Loss Function (L1 + MS-SSIM Proxy):**
    Optimizes for both pixel-perfect intensity and structural boundary preservation, vital for EUV lithography defect detection.
-5. **Self-Describing Checkpoints:** 
+4. **Self-Describing Checkpoints:** 
    Model hyperparameters are embedded directly into `.pth` weights to prevent configuration drift during deployment.
 
 ## ⚙️ Repository Structure
