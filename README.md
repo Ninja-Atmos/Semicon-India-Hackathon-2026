@@ -24,4 +24,4 @@ Optimized to maximize SSIM, PSNR, and LPIPS metrics, this pipeline meets strict 
 - `KLA_Restored_Submission`: [Semicon India Hackathon] / (Test Output)
 - `semicon_restore.py`: The core unified script containing the model architecture, training loop, and inference logic.
 - `kla_checkpoint.pth`: The fully trained model weights (download from release / drive).
-- `requirements.txt`: Python environment dependencies.
+- `requirements.md`: Python environment dependencies.
